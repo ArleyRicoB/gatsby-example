@@ -4,13 +4,13 @@ module.exports = {
     title: "hello world",
   },
   plugins: [
-    {
-      resolve: "gatsby-source-contentful",
-      options: {
-        accessToken: "",
-        spaceId: "",
-      },
-    },
+    // {
+    //   resolve: "gatsby-source-contentful",
+    //   options: {
+    //     accessToken: "asdasdds",
+    //     spaceId: "asdasdsadsadd",
+    //   },
+    // },
     "gatsby-plugin-sass",
   ],
 };
